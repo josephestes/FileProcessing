@@ -1,8 +1,19 @@
 # FileProcessing
 
-This programs reads numbers from a file, processes them, and outputs the results to another file.
+This program reads a text file of numbers and outputs the following details to the user and a file:
 
-## Usage/Examples
+- Number count
+- Smallest number
+- Largest number
+- Average of numbers
+- Number of numbers within ranges of 0 - 9999, 10000 - 19999, and so on up to 99999
+
+## Features
+
+- Uses loops to read and process the input file
+- Outputs details to the user and a file
+
+## Example
 
 ```
 Number Count: 3687
@@ -23,12 +34,3 @@ Output to file
 
 Press any key to close this window . . .
 ```
-
-### Program Logic
-- Read a text file of numbers, find and display (one per line):
-  1. The number of numbers
-  2. The largest of these numbers
-  3. The smallest of these number
-  4. The average of these numbers
-- Determine the number of numbers in the range 00000 - 09999, 10000 - 199999, 20000 - 29999, etc., all the way through 90000 - 99999
-- Output the results to a file
